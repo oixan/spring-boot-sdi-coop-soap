@@ -15,7 +15,7 @@ public class TestController {
 	@RequestMapping("test")
 	public void test1() {
 		System.out.println("Sono dentro al bean test1");
-		this.client.riceviFile("test");			
+		this.client.riceviFile("test");		 	
 	}
 
 }
