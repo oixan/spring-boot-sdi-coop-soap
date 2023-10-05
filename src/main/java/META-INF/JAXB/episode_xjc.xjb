@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Questo file è stato generato dall'Eclipse Implementation of JAXB, v3.0.0 
+Vedere https://eclipse-ee4j.github.io/jaxb-ri 
+Qualsiasi modifica a questo file andrà persa durante la ricompilazione dello schema di origine. 
+Generato il: 2023.10.05 alle 11:53:48 PM CEST 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/file/v2.0">
+    <schemaBindings map="false">
+      <package name="it.gov.agenziaentrate.ivaservizi.docs.xsd.file.v2"/>
+    </schemaBindings>
+    <bindings scd="~tns:EsitoFile_Type">
+      <class ref="it.gov.agenziaentrate.ivaservizi.docs.xsd.file.v2.EsitoFileType"/>
+    </bindings>
+    <bindings scd="~tns:RifArchivio_Type">
+      <class ref="it.gov.agenziaentrate.ivaservizi.docs.xsd.file.v2.RifArchivioType"/>
+    </bindings>
+    <bindings scd="~tns:ListaErrori_Type">
+      <class ref="it.gov.agenziaentrate.ivaservizi.docs.xsd.file.v2.ListaErroriType"/>
+    </bindings>
+    <bindings scd="~tns:Errore_Type">
+      <class ref="it.gov.agenziaentrate.ivaservizi.docs.xsd.file.v2.ErroreType"/>
+    </bindings>
+    <bindings scd="~tns:Esito_Type">
+      <typesafeEnumClass ref="it.gov.agenziaentrate.ivaservizi.docs.xsd.file.v2.EsitoType"/>
+    </bindings>
+  </bindings>
+  <bindings scd="x-schema::tns" xmlns:tns="http://www.w3.org/2000/09/xmldsig#">
+    <schemaBindings map="false">
+      <package name="org.w3._2000._09.xmldsig_"/>
+    </schemaBindings>
+    <bindings scd="~tns:SignatureType">
+      <class ref="org.w3._2000._09.xmldsig_.SignatureType"/>
+    </bindings>
+    <bindings scd="~tns:SignatureValueType">
+      <class ref="org.w3._2000._09.xmldsig_.SignatureValueType"/>
+    </bindings>
+    <bindings scd="~tns:SignedInfoType">
+      <class ref="org.w3._2000._09.xmldsig_.SignedInfoType"/>
+    </bindings>
+    <bindings scd="~tns:CanonicalizationMethodType">
+      <class ref="org.w3._2000._09.xmldsig_.CanonicalizationMethodType"/>
+    </bindings>
+    <bindings scd="~tns:SignatureMethodType">
+      <class ref="org.w3._2000._09.xmldsig_.SignatureMethodType"/>
+    </bindings>
+    <bindings scd="~tns:ReferenceType">
+      <class ref="org.w3._2000._09.xmldsig_.ReferenceType"/>
+    </bindings>
+    <bindings scd="~tns:TransformsType">
+      <class ref="org.w3._2000._09.xmldsig_.TransformsType"/>
+    </bindings>
+    <bindings scd="~tns:TransformType">
+      <class ref="org.w3._2000._09.xmldsig_.TransformType"/>
+    </bindings>
+    <bindings scd="~tns:DigestMethodType">
+      <class ref="org.w3._2000._09.xmldsig_.DigestMethodType"/>
+    </bindings>
+    <bindings scd="~tns:KeyInfoType">
+      <class ref="org.w3._2000._09.xmldsig_.KeyInfoType"/>
+    </bindings>
+    <bindings scd="~tns:KeyValueType">
+      <class ref="org.w3._2000._09.xmldsig_.KeyValueType"/>
+    </bindings>
+    <bindings scd="~tns:RetrievalMethodType">
+      <class ref="org.w3._2000._09.xmldsig_.RetrievalMethodType"/>
+    </bindings>
+    <bindings scd="~tns:X509DataType">
+      <class ref="org.w3._2000._09.xmldsig_.X509DataType"/>
+    </bindings>
+    <bindings scd="~tns:PGPDataType">
+      <class ref="org.w3._2000._09.xmldsig_.PGPDataType"/>
+    </bindings>
+    <bindings scd="~tns:SPKIDataType">
+      <class ref="org.w3._2000._09.xmldsig_.SPKIDataType"/>
+    </bindings>
+    <bindings scd="~tns:ObjectType">
+      <class ref="org.w3._2000._09.xmldsig_.ObjectType"/>
+    </bindings>
+    <bindings scd="~tns:ManifestType">
+      <class ref="org.w3._2000._09.xmldsig_.ManifestType"/>
+    </bindings>
+    <bindings scd="~tns:SignaturePropertiesType">
+      <class ref="org.w3._2000._09.xmldsig_.SignaturePropertiesType"/>
+    </bindings>
+    <bindings scd="~tns:SignaturePropertyType">
+      <class ref="org.w3._2000._09.xmldsig_.SignaturePropertyType"/>
+    </bindings>
+    <bindings scd="~tns:DSAKeyValueType">
+      <class ref="org.w3._2000._09.xmldsig_.DSAKeyValueType"/>
+    </bindings>
+    <bindings scd="~tns:RSAKeyValueType">
+      <class ref="org.w3._2000._09.xmldsig_.RSAKeyValueType"/>
+    </bindings>
+    <bindings scd="~tns:X509IssuerSerialType">
+      <class ref="org.w3._2000._09.xmldsig_.X509IssuerSerialType"/>
+    </bindings>
+  </bindings>
+  <bindings scd="x-schema::tns" xmlns:tns="http://www.fatturapa.gov.it/sdi/ws/ricezione/v1.0/types">
+    <schemaBindings map="false">
+      <package name="it.gov.fatturapa.sdi.ws.ricezione.v1_0.types"/>
+    </schemaBindings>
+    <bindings scd="~tns:fileSdI_Type">
+      <class ref="it.gov.fatturapa.sdi.ws.ricezione.v1_0.types.FileSdIType"/>
+    </bindings>
+    <bindings scd="~tns:rispostaRiceviFatture_Type">
+      <class ref="it.gov.fatturapa.sdi.ws.ricezione.v1_0.types.RispostaRiceviFattureType"/>
+    </bindings>
+    <bindings scd="~tns:fileSdIConMetadati_Type">
+      <class ref="it.gov.fatturapa.sdi.ws.ricezione.v1_0.types.FileSdIConMetadatiType"/>
+    </bindings>
+    <bindings scd="~tns:rispostaSdINotificaEsito_Type">
+      <class ref="it.gov.fatturapa.sdi.ws.ricezione.v1_0.types.RispostaSdINotificaEsitoType"/>
+    </bindings>
+    <bindings scd="~tns:fileSdIBase_Type">
+      <class ref="it.gov.fatturapa.sdi.ws.ricezione.v1_0.types.FileSdIBaseType"/>
+    </bindings>
+    <bindings scd="~tns:esitoRicezione_Type">
+      <typesafeEnumClass ref="it.gov.fatturapa.sdi.ws.ricezione.v1_0.types.EsitoRicezioneType"/>
+    </bindings>
+    <bindings scd="~tns:esitoNotifica_Type">
+      <typesafeEnumClass ref="it.gov.fatturapa.sdi.ws.ricezione.v1_0.types.EsitoNotificaType"/>
+    </bindings>
+  </bindings>
+  <bindings scd="x-schema::tns" xmlns:tns="http://ivaservizi.agenziaentrate.gov.it/docs/wsdl/trasmissionefile/v2.0">
+    <schemaBindings map="false">
+      <package name="it.gov.agenziaentrate.ivaservizi.docs.wsdl.trasmissionefile.v2"/>
+    </schemaBindings>
+    <bindings scd="~tns:File_Type">
+      <class ref="it.gov.agenziaentrate.ivaservizi.docs.wsdl.trasmissionefile.v2.FileType"/>
+    </bindings>
+    <bindings scd="~tns:RispostaFile_Type">
+      <class ref="it.gov.agenziaentrate.ivaservizi.docs.wsdl.trasmissionefile.v2.RispostaFileType"/>
+    </bindings>
+    <bindings scd="~tns:Esito_Type">
+      <class ref="it.gov.agenziaentrate.ivaservizi.docs.wsdl.trasmissionefile.v2.EsitoType"/>
+    </bindings>
+    <bindings scd="~tns:RispostaEsito_Type">
+      <class ref="it.gov.agenziaentrate.ivaservizi.docs.wsdl.trasmissionefile.v2.RispostaEsitoType"/>
+    </bindings>
+    <bindings scd="~tns:Notifica_Type">
+      <class ref="it.gov.agenziaentrate.ivaservizi.docs.wsdl.trasmissionefile.v2.NotificaType"/>
+    </bindings>
+    <bindings scd="~tns:dettaglioArchiovio_Type">
+      <class ref="it.gov.agenziaentrate.ivaservizi.docs.wsdl.trasmissionefile.v2.DettaglioArchiovioType"/>
+    </bindings>
+    <bindings scd="~tns:ErroreInvio_Type">
+      <typesafeEnumClass ref="it.gov.agenziaentrate.ivaservizi.docs.wsdl.trasmissionefile.v2.ErroreInvioType"/>
+    </bindings>
+    <bindings scd="~tns:StatoFile_Type">
+      <typesafeEnumClass ref="it.gov.agenziaentrate.ivaservizi.docs.wsdl.trasmissionefile.v2.StatoFileType"/>
+    </bindings>
+    <bindings scd="~tns:Errore_Type">
+      <typesafeEnumClass ref="it.gov.agenziaentrate.ivaservizi.docs.wsdl.trasmissionefile.v2.ErroreType"/>
+    </bindings>
+  </bindings>
+  <bindings scd="x-schema::tns" xmlns:tns="http://www.fatturapa.gov.it/sdi/ws/trasmissione/v1.0/types">
+    <schemaBindings map="false">
+      <package name="it.gov.fatturapa.sdi.ws.trasmissione.v1_0.types"/>
+    </schemaBindings>
+    <bindings scd="~tns:fileSdIBase_Type">
+      <class ref="it.gov.fatturapa.sdi.ws.trasmissione.v1_0.types.FileSdIBaseType"/>
+    </bindings>
+    <bindings scd="~tns:fileSdI_Type">
+      <class ref="it.gov.fatturapa.sdi.ws.trasmissione.v1_0.types.FileSdIType"/>
+    </bindings>
+    <bindings scd="~tns:rispostaSdIRiceviFile_Type">
+      <class ref="it.gov.fatturapa.sdi.ws.trasmissione.v1_0.types.RispostaSdIRiceviFileType"/>
+    </bindings>
+    <bindings scd="~tns:erroreInvio_Type">
+      <typesafeEnumClass ref="it.gov.fatturapa.sdi.ws.trasmissione.v1_0.types.ErroreInvioType"/>
+    </bindings>
+  </bindings>
+</bindings>
+
